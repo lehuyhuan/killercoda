@@ -12,9 +12,24 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Create pod",
+        "title": "Create pod with lables",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Create pod with multi containers",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Create pod with environment variable",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Create pod with local volume hostPath",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
       }
     ],
     "finish": {
