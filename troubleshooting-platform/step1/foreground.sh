@@ -1,3 +1,2 @@
-echo -n "Preparing the scenario ..."
-while [ ! -f /tmp/.pre_done_1 ]; do echo -n "."; sleep 1; done
-echo DONE
+#!/bin/bash
+state="Initializing scenario..."; while [ ! -f /tmp/.pre_done_1 ]; do clear; state="${state}."; echo -n $state; sleep 1; done; echo "Done"
