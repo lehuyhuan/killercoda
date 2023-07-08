@@ -1,2 +1,2 @@
 #!/bin/bash
-state="Initializing scenario..."; while [ ! -f /tmp/.pre_done_1 ]; do clear; state="${state}."; echo -n $state; sleep 1; done; echo "Done"
+clear; echo -n $'\xc2\xa9Huan Le\r\nInitializing...'; while [ ! -f /tmp/.pre_done_1 ]; do echo -n "."; sleep 1; done; echo "Done"
