@@ -2,6 +2,6 @@
 <details>
 <summary>Hint</summary>
 
-Is kubelet running properly. Use `journalctl -u kubelet` and `systemctl status kubelet` to check and try to fix.
+Is kubelet running properly. Use `journalctl -u kubelet` and `systemctl status kubelet` to find the error and fix.
 
 </details>

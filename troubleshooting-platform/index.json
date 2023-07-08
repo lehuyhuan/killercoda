@@ -12,6 +12,20 @@
         "foreground": "step1/foreground.sh",
         "background": "step1/background.sh",
         "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Ops, what wrong with K8s",
+        "text": "step2/text.md",
+        "foreground": "step2/foreground.sh",
+        "background": "step2/background.sh",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Ops, what wrong with K8s",
+        "text": "step3/text.md",
+        "foreground": "step3/foreground.sh",
+        "background": "step3/background.sh",
+        "verify": "step3/verify.sh"
       }
     ],
     "finish": {
