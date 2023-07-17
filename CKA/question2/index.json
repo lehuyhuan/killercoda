@@ -1,9 +1,6 @@
 {
   "title": "Question 1",
   "details": {
-    "intro": {
-      "text": "../intro.md"
-    },
     "steps": [
       {
         "text": "text.md",
@@ -11,12 +8,9 @@
         "foreground":"foreground.sh",
         "verify": "verify.sh"
       }
-    ],
-    "finish": {
-      "text": "../finish.md"
-    }
+    ]
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-2node"
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }
