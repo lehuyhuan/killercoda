@@ -1,0 +1,21 @@
+{
+    "title": "CKA exam simple demo",
+    "description": "This is a simple demo of CKA exam",
+    "items": [
+      { "path": "question1", "title":"Question 1" },
+      { "path": "question2", "title":"Question 2" },
+      { "path": "question3", "title":"Question 3" },
+      { "path": "question4", "title":"Question 4" },
+      { "path": "question5", "title":"Question 5" },
+      { "path": "question6", "title":"Question 6" },
+      { "path": "question7", "title":"Question 7" },
+      { "path": "question8", "title":"Question 8" },
+      { "path": "question9", "title":"Question 9" },
+      { "path": "question10", "title":"Question 10" },
+      { "path": "question11", "title":"Question 11" },
+      { "path": "question12", "title":"Question 12" },
+      { "path": "question13", "title":"Question 13" },
+      { "path": "question14", "title":"Question 14" },
+      { "path": "question15", "title":"Question 15" }
+    ]
+  }

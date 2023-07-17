@@ -1,0 +1,22 @@
+{
+  "title": "Question 1",
+  "details": {
+    "intro": {
+      "text": "../intro.md"
+    },
+    "steps": [
+      {
+        "text": "text.md",
+        "background":"background.sh",
+        "foreground":"foreground.sh",
+        "verify": "verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "../finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2node"
+  }
+}
