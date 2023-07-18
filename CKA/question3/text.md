@@ -2,6 +2,4 @@
 
 ### Task
 
-There are some deployments in namespace `team_app2` and need to be security hardening, so create the network policy as below
-
-Only pods from namespace `team_app1` with label `app=frontend-web` allowed to connect to Pods of namespace `team_app2` which listening on port tcp 5000
+Find log entries of pod `simple-log` which contain `Error: connect to db failed`  and store into `/tmp/error-log.txt`
