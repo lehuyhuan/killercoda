@@ -10,7 +10,6 @@
       }
     ]
   },
-  "foreground":"hello.sh",
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes"
   }
