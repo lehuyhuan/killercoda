@@ -2,7 +2,7 @@
 kubectl create ns team-app1
 kubectl create ns team-app2
 
-kubectl -n team-app1 run app-checker --image busybox:stable -- sleep 60m
+kubectl -n team_app1 run app-checker --image busybox:stable -- sleep 60m
 
 cat <<EOF | kubectl apply -f
 apiVersion: apps/v1
@@ -52,6 +52,6 @@ spec:
         name: redis
 EOF
 
-kubectl -n teamp-app2 expose deployment api --name api --port 5000 --target-port 5000
-kubectl -n teamp-app2 expose deployment api --name redis --port 6379 --target-port 6379
+kubectl -n team-app2 expose deployment api --name api --port 5000 --target-port 5000
+kubectl -n team-app2 expose deployment api --name redis --port 6379 --target-port 6379
 touch /tmp/.pre_done_2
