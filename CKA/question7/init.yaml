@@ -1,13 +1,20 @@
-apiVersion: v1
-kind: Pod
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   labels:
-    app: frontend-web
-  name: app1
+    app: web-app
+  name: web-app
 spec:
-  containers:
-  - args:
-    - sleep
-    - 60m
-    image: busybox:stable
-    name: app
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-app
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - image: nginx:alpine3.17
+        name: nginx
