@@ -1,5 +1,5 @@
 {
-  "title": "Question 3",
+  "title": "Question 4",
   "details": {
     "steps": [
       {
@@ -11,6 +11,6 @@
     ]
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-1node"
+    "imageid": "kubernetes-kubeadm-node"
   }
 }

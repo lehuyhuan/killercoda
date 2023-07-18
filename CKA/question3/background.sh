@@ -54,4 +54,4 @@ EOF
 
 kubectl -n team-app2 expose deployment api --name api --port 5000 --target-port 5000
 kubectl -n team-app2 expose deployment api --name redis --port 6379 --target-port 6379
-touch /tmp/.pre_done_2
+touch /tmp/.pre_done_3
