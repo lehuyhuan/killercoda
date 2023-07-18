@@ -5,7 +5,7 @@ metadata:
     kubernetes.io/metadata.name: team-app1
   name: team-app1
   ---
-  apiVersion: v1
+apiVersion: v1
 kind: Namespace
 metadata:
   labels:
