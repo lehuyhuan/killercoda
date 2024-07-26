@@ -1,7 +1,6 @@
 {
     "items": [
       { "path": "pod", "title": "Pod practices" },
-      { "path": "troubleshooting-platform", "title": "Practices to recovery K8s cluster" },
-      { "path": "CKA","title":"One CKA exam simple"}
+      { "path": "troubleshooting-platform", "title": "Practices to recovery K8s cluster" }
     ]
   }
